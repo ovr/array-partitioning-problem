@@ -16,6 +16,11 @@ class ArrayPartitioning
             throw new InvalidArgumentException('$numArrays must be a positive number');
         }
 
+        $numbersCount = count($inputNumbers);
+        if ($numArrays > $numbersCount) {
+            throw new InvalidArgumentException('$numArrays must be smaller then count of input numbers');
+        }
+        
         $outputArrays = []; ////  [[8,2], [7,2,1], [6,4,1]]
 
         return $outputArrays;
