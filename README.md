@@ -11,7 +11,9 @@ e.g. You have these numbers:
 Lets split them into 3 groups:
 
 8,2    = 10
+
 7,2,1  = 10
+
 6,4,1  = 11
 
 # LICENSE
